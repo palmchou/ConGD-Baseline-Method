@@ -1,10 +1,10 @@
 ConGD baseline
 ---
-This is the source code of the baseline method of [ConGD](http://www.cbsr.ia.ac.cn/users/jwan/database/congd.html), a large-scale continous gesture dataset.  
+This is the source code of the baseline method of [ConGD](http://www.cbsr.ia.ac.cn/users/jwan/database/congd.html), a large-scale continuous gesture dataset.
 Baseline method: MFSK features -> Sliding Window segmentation -> Kmeans -> SVM
 
-## ChaLearn Challenage and Data downloading
-The [ChaLearn LAP Large-scale Continous Gesture Recognition Challenge](https://competitions.codalab.org/competitions/10341)
+## ChaLearn Challenge and Data downloading
+The [ChaLearn LAP Large-scale Continuous Gesture Recognition Challenge](https://competitions.codalab.org/competitions/10341)
 is in progress, please feel free to participate!  
 You can gain access to the ChaLearn LAP ConGD dataset from http://www.cbsr.ia.ac.cn/users/jwan/database/congd.html.
 
@@ -46,8 +46,7 @@ Run `congd/joint_list.py` to get formatted result for evaluation.
 If you use this code in your research, please cite the following two papers:
 
 **MFSK feature:**  
-Jun Wan, Guogong Guo, Stan Z. Li, "Explore Efficient Local Features form RGB-D Data for One-shot Learning
-Gesture Recognition", IEEE TPAMI, 2015 (accepted)
+Jun Wan, Guogong Guo, Stan Z. Li, "Explore Efficient Local Features form RGB-D Data for One-shot Learning Gesture Recognition", in IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 38, no. 8, pp. 1626-1639, 2016.
 
 **ConGD result:**  
 Jun Wan, Yibing Zhao, Shuai Zhou, Isabelle Guyon, Sergio Escalera and Stan Z. Li, "ChaLearn Looking at People RGB-D Isolated and Continuous Datasets for Gesture Recognition", CVPR workshop, 2016.
