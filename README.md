@@ -55,3 +55,14 @@ Jun Wan, Yibing Zhao, Shuai Zhou, Isabelle Guyon, Sergio Escalera and Stan Z. Li
 Should you have any question, please contact:  
 Shuai Zhou: shuaizhou.palm@gmail.com, or  
 Jun Wan: jun.wan@ia.ac.cn
+
+##License
+### VLFeat
+The kmeans algorithm we used is implemented by VLFeat toolbox.
+> **VLFeat** is distributed under the BSD license:
+> Copyright (C) 2007-11, Andrea Vedaldi and Brian Fulkerson
+> Copyright (C) 2012-13, The VLFeat Team
+> All rights reserved.
+
+### ConGD Baseline
+Distributed under the Apache License V2.0, please check `LICENSE` for further information.
